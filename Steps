@@ -1,0 +1,8 @@
+aws eks update-kubeconfig --region us-east-2 --name nilesh
+kubectl cluster-info
+kubectl get nodes
+kubectl get pods
+kubectl run nilesh
+kubectl get pods -o wide
+kubectl expose pod nilesh --type NodePort --port 80
+kubectl get service
