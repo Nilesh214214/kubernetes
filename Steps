@@ -9,3 +9,5 @@ kubectl get service
 kubectl get namespace
 kubectl run pod --image=nginx -n dev 
 kubectl create namespace dev
+kubectl api-resources
+kubectl apply -f pod.yaml
