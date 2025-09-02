@@ -6,3 +6,6 @@ kubectl run nilesh
 kubectl get pods -o wide
 kubectl expose pod nilesh --type=NodePort --port 80
 kubectl get service
+kubectl get namespace
+kubectl run pod --image=nginx -n dev 
+kubectl create namespace dev
