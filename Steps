@@ -4,5 +4,5 @@ kubectl get nodes
 kubectl get pods
 kubectl run nilesh
 kubectl get pods -o wide
-kubectl expose pod nilesh --type NodePort --port 80
+kubectl expose pod nilesh --type=NodePort --port 80
 kubectl get service
